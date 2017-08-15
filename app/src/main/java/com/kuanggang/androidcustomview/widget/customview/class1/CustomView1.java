@@ -1,4 +1,4 @@
-package com.kuanggang.androidcustomview.widget.customview;
+package com.kuanggang.androidcustomview.widget.customview.class1;
 
 import android.content.Context;
 import android.graphics.Canvas;

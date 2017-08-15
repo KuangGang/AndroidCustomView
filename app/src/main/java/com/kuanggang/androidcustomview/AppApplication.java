@@ -2,6 +2,7 @@ package com.kuanggang.androidcustomview;
 
 import android.app.Application;
 
+import com.kuanggang.androidcustomview.model.type.PageSizeEnum;
 import com.orhanobut.logger.LogLevel;
 import com.orhanobut.logger.Logger;
 
@@ -18,6 +19,6 @@ public class AppApplication extends Application {
         super.onCreate();
         application = this;
 
-        Logger.init("GankApp").logLevel(BuildConfig.isDebug ? LogLevel.FULL : LogLevel.NONE);
+        Logger.init("AndroidCustomView").logLevel(BuildConfig.isDebug ? LogLevel.FULL : LogLevel.NONE);
     }
 }
